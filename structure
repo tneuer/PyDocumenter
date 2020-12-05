@@ -1,0 +1,46 @@
+    {"Classes":
+        { *Class1*:
+            { "Atrributes":
+                { *Attribute1*, *Attribute2*, ...,},
+              "Methods":
+                { *Method1*:
+                    { "Arguments":
+                        [ [Arg1, Default1], [Arg2, Default2], ...],
+                      "Doc" : *docstring*,
+                      "General":
+                        {"Start": *nr*, "End": *nr*, "LoC", *nr*, "LoD": *nr*, "LoN": *nr*},
+                      "Returns" :
+                        [Return1, Return2, ...]
+                    }
+                  *Method2*:
+                    {
+                    ...
+                    }
+                  }
+              "Doc" : *docstring*,
+              "General" :
+                {"Start": *nr*, "End": *nr*, "LoC", *nr*, "LoD": *nr*, "LoN": *nr*},
+              "Inheritance": [Inher1, Inher2, ...]
+            },
+          *Class2*:
+          {
+          ...
+          },
+     "Functions":
+        { *Function1*:
+            { "Arguments":
+                [ [Arg1, Default1], [Arg2, Default2], ...],
+              "Doc" : *docstring*,
+              "General":
+                {"Start": *nr*, "End": *nr*, "LoC", *nr*, "LoD": *nr*, "LoN": *nr*},
+              "Returns" :
+                [ [Return1], [Return2], ...]
+            }
+        },
+     "General":
+        {'LoC': *nr*, 'LoD': *nr*, 'LoN': *nr*, 'NoC': *nr*, 'NoF': *nr*},
+     "Imports":
+        [ [*pack1*, *as*, *ClassOrFunction*], [...], ... ],
+     "Doc": *docstring*,
+     "Modulename": *modulename*
+    }
